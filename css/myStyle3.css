@@ -1,0 +1,153 @@
+@media screen and (max-width:700px) {
+
+.firstSection, .secondSection, .thirdSection, .fourthSection, .contact {
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+
+
+.links{
+    display: none;
+}
+
+/* Hero  Section *************/
+.heroImage{
+    transform:scale(0.85);
+}
+
+.fullName{
+    margin-top: 10px;
+}
+
+.heroWrapper {
+    padding: 230px 10px 50px 10px;
+    flex-direction: column-reverse;
+    text-align: left;
+}
+
+.heroText{
+    width: 100%;
+}
+
+ .subTopic, .fullName {
+    justify-content: start;
+}
+
+/*  Services Section *************/
+.service-card{
+   width: 250px;
+}
+
+/* Portfolio Section ************/
+
+.thirdSection{
+    padding: 0px 20px;
+}
+
+.portfolioHeader{
+    padding-right: 15px;
+}
+
+.portfolio-item{
+    width: 100%!important;
+}
+
+/* Work Experience Section ******/
+ .atcAfrica, .sabo, .jojega{
+    max-width: 70px;
+    min-width: 70px;
+    padding: 5px 8px;
+    height: 20px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.companiesTitle{
+    margin-top: 30px;
+}
+
+.role h3{
+    font-size: 17px;
+}
+
+.role a{
+    font-size: 12px;
+}
+
+.specialSabo{
+    padding-top: 5px;
+    font-size: 12px!important;
+}
+
+/* Contact Section *******************/
+
+.contactMe{
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.availability-card {
+    padding: 20px 20px 30px 10px;
+}
+
+}
+
+
+@media screen and (max-width: 330px) {
+
+/* Hero  Section *************/
+.heroImage{
+    transform:scale(0.65);
+}
+
+.fullName{
+    margin-top: 8px;
+}
+
+.firstName{
+    font-size: 26px;
+}
+
+.lastName{
+    font-size: 26px;
+}
+
+/* services section ************/
+
+.secondTitle h1{
+    font-size: 26px;
+    margin-top: 5px;
+}
+    
+/* Work Experience Section ******/
+ .atcAfrica, .sabo, .jojega{
+    max-width: 70px;
+    min-width: 60px;
+    padding: 5px;
+    height: 20px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+/*  Services Section *************/
+.service-card{
+   width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
