@@ -27,6 +27,11 @@ body.light-theme {
     
 }
 
+body, a, p, h1, h2, h3, h4, h5, h6{
+   font-family:'Inter', sans-serif!important;
+   border-right: none!important;
+}
+
 /* 3. Apply variables to your existing styles */
 body, .firstSection, .secondSection, .thirdSection, .fourthSection, .slider-container {
     background-color: var(--bg-color);
@@ -225,6 +230,7 @@ h1{
 .resume-link{
     text-decoration-line: none!important;
 }
+
 
 .theme{
     display: flex;
@@ -1058,5 +1064,4 @@ h1{
 
 .footer-socials img:hover {
     transform: translateY(-3px);
-
 }
