@@ -75,6 +75,7 @@
 /*  Services Section *************/
 .secondSection{
     padding: 50px 10px 40px 10px;
+    margin-top: 30px!important;
 }
 
 .secondTitle{
@@ -88,7 +89,7 @@
 /* Portfolio Section ************/
 
 .thirdSection{
-    padding: 10px 20px 0px 20px;
+    padding: 30px 20px 0px 20px;
 }
 
 .portfolioHeader{
@@ -102,6 +103,7 @@
 /* Work Experience Section ******/
 .fourthSection{
     padding: 50px 10px 40px 10px;
+    margin-top: 100px!important;
 }
 
  .atcAfrica, .sabo, .jojega{
@@ -132,6 +134,10 @@
 }
 
 /* Contact Section *******************/
+
+.contact{
+    margin-top: 70px;
+}
 
 .contactMe{
     margin-top: 30px;
