@@ -5,6 +5,10 @@
         padding-right: 10px;
     }
 
+    .header.scrolled {
+        padding: 10px 15px;
+    }
+
      .firstSection, .secondSection, .thirdSection, .fourthSection, .contact {
         padding-left: 20px ;
         padding-right: 20px ;
@@ -21,7 +25,7 @@
     }
 
     .heroWrapper {
-        padding: 230px 30px 50px 30px;
+        padding: 300px 30px 50px 30px;
         flex-direction: column-reverse;
         text-align: center;
     }
@@ -41,7 +45,6 @@
     /* 2. Services Section */
 
     .secondSection{
-        background-color: #111111;
         padding: 150px 20px 100px 20px;
     }
 

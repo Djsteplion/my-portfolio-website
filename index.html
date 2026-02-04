@@ -13,6 +13,29 @@
     <link href="css/swiper.css" rel="stylesheet">
 </head>
 <body>
+    <div class="mySidenav" id="sidenav">
+        <a href="javascript:void(0)" class="closebtn down" onclick="closeNav()">&times;</a>
+        <div id="themeAndResumez">
+            <div class="theme">
+                <img src="images/moon (1).png" alt="dark-mode, switch to light mode button">
+            </div>
+            <a href="assets/Stephen-Olayiwola-Resume.pdf" download="Stephen_Olayiwola_Resume" class="resume-link">
+            <div class="resumez">
+                <span>Resume</span>
+                <svg class="download-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+            </div>
+            </a>
+        </div>
+        <div class="l1 down" onclick="closeNav()"><a href="#about" class="linkss">ABOUT</a></div>
+        <div class="l2 down" onclick="closeNav()"><a href="#services" class="linkss">SERVICES</a></div>
+        <div class="l3 down" onclick="closeNav()"><a href="#portfolio" class="linkss">PORTFOLIO</a></div>
+        <div class="l4 l42 up" onclick="closeNav()"><a href="#experience" class="linkss">EXPERIENCE</a></div>
+        <div class="l2 up" onclick="closeNav()"><a href="#contact" class="linkss">CONTACT</a></div>
+    </div>
     <!--First Section-->
     <section class="firstSection">
         <div class="header"><!--Header-->
@@ -21,23 +44,26 @@
                 <span class="olayiwolaLogo">Olayiwola</span>
             </a>
             <div class="links">
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Experience</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
             </div>
             <div class="themeAndResume">
                 <div class="theme">
                     <img src="images/moon (1).png" alt="dark-mode, switch to light mode button">
                 </div>
-                <div class="resume">
-                    Resume
-                </div>
+                <a href="assets/Stephen-Olayiwola-Resume.pdf" download="Stephen_Olayiwola_Resume" class="resume-link">
+                    <div class="resume">
+                        Resume
+                    </div>
+                </a>
             </div>
+            <div id="menu" style="color:var(--menu-icon-color); font-size: 20px;" onclick="openNav()" >&#9776;</div>
         </div><!--end of header-->
 
-        <div class="heroWrapper"><!--Hero-->
+        <div class="heroWrapper" id="about"><!--Hero-->
             <div class="heroText">
                 <div class="subTopic">
                     <img src="images/Above title line (1).png" alt="dash sign" class="dash">
@@ -73,7 +99,7 @@
     </section>
 
     <!--Second Section-->
-    <section class="secondSection">
+    <section class="secondSection" id="services">
         <div class="secondTitle"><!--Services Header-->
             <h5 class="services-label">SERVICES</h5>
             <h1>Specialized in</h1>
@@ -117,7 +143,7 @@
     </section>
 
     <!--Third Section-->
-    <section class="thirdSection">
+    <section class="thirdSection" id="portfolio">
         <div class="portfolioHeader"><!--Portfolio Header-->
             <div class="portfolioHeaderText">
                 <span class="portfolio-label">My Works</span>
@@ -235,7 +261,7 @@
     </section>
 
     <!--Fourth Section-->
-    <section class="fourthSection">
+    <section class="fourthSection" id="experience">
         <div class="workExperienceTabs">
             <div class="weTitle">
                 <span>CAREER PATH</span>
@@ -251,7 +277,7 @@
                     <span class="tab-span"> &#10095; </span>
                 </div>
                 <div class="jojega tab-btn" onclick="showExperience('Jojega', this)">
-                    <p>Jojega Concept</p>
+                    <p>Jojega</p>
                     <span class="tab-span"> &#10095; </span>
                 </div>
             </div>
@@ -341,7 +367,7 @@
     </section>
 
     <!--Fifth Section-->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="weTitle">
             <span>GET IN TOUCH</span>
             <h2>Contact Me</h2>
